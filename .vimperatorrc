@@ -1,0 +1,15 @@
+
+"gui
+set titlestring="vimrepator"
+set showstatuslinks=1
+
+"keymap
+noremap j 10<C-e>
+noremap k 10<C-y>
+noremap h <A-Left>
+noremap l <A-Right>
+
+map <S-Right> :tabmove! +1<CR>
+map <S-Left> :tabmove! -1<CR>
+
+colorscheme gr_black

@@ -1,0 +1,41 @@
+" **********
+" gr_black
+" 
+" SEE:    http://vimperator.org/help/vimperator/styling.xhtml
+" NOTE:   Please change 'font-family' by yourself
+" AUTHOR: @grauwoelfchen
+" **********
+
+hi CmdOutput          font-size: 15px;
+
+hi Title              color: white;
+hi Indicator          color: blue;
+hi String             color: khaki;
+hi Number             color: gray;
+hi Object             color: yellow;
+hi Function           color: SkyBlue;
+hi URL                color: SkyBlue;
+hi TabNumber          color: white; font-size: 10px;
+
+hi Hint               background-color: black;    color: white; font-family: Panic-sans; font-size: 13px; font-weight: normal; border: 1px solid black; padding: 0px 3px;
+hi HintElem           background-color: darkgray; color: black;
+hi HintActive         background-color: gray;     color: white; font-weight: normal;
+
+hi StatusLine         color: black;       background: black; font-size: 14px;
+hi Normal             color: gray;        background: black; font-size: 14px;
+hi InfoMsg            color: LightYellow; background: black; font-size: 14px;
+hi ModeMsg            color: LightYellow; background: black; font-size: 14px;
+hi MoreMsg            color: LimeGreen;   background: black; font-size: 14px;
+hi LineNr             color: gray;        background: black; font-size: 14px;
+hi Question           color: Yellow;      background: black; font-size: 14px;
+hi WarningMsg         color: red;         background: black; font-size: 14px;
+hi Null               color: white;
+hi Tag                color: white;
+hi NonText            background: black;
+
+hi CompTitle          color: gray;   background: black; font-weight: normal; padding: 2px 3px;
+hi CompItem           color: gray:   background: black; padding: 1px;
+hi CompItem[selected] color: white;  background: darkgray;
+hi CompDesc           color: green;
+hi Filter             color: gray;   background: yellow; border: 1px solid orange; padding: 1px 2px;
+
