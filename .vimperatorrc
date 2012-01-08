@@ -9,7 +9,7 @@ noremap k 10<C-y>
 noremap h <A-Left>
 noremap l <A-Right>
 
-map <S-Right> :tabmove! +1<CR>
-map <S-Left> :tabmove! -1<CR>
+map <S-L> :tabmove! +1<CR>
+map <S-H> :tabmove! -1<CR>
 
 colorscheme gr_black
