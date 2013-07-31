@@ -13,3 +13,6 @@ map <S-L> :tabmove! +1<CR>
 map <S-H> :tabmove! -1<CR>
 
 colorscheme gr_black
+
+"showoff
+autocmd LocationChange localhost:9090 js modes.passAllKeys = true
