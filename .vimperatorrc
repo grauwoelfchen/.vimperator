@@ -1,18 +1,27 @@
+" editor {{{
+set editor="xterm -e vim"
+" }}}
 
-"gui
+" gui {{{
 set titlestring="vimrepator"
 set showstatuslinks=1
+" }}}
 
-"keymap
+" keymap {{{
 noremap j 10<C-e>
 noremap k 10<C-y>
 noremap h <A-Left>
 noremap l <A-Right>
-
+"" tabs
 map <S-L> :tabmove! +1<CR>
 map <S-H> :tabmove! -1<CR>
+" }}}
 
+" color {{{
 colorscheme gr_black
+" }}}
 
-"showoff
+" other {{{
+"" showoff
 autocmd LocationChange localhost:9090 js modes.passAllKeys = true
+" }}}
