@@ -36,8 +36,8 @@ EOF
 
 "" tabs
 set! browser.tabs.closeButtons=2
-set! browser.tabs.tabMaxWidth=21
-set! browser.tabs.tabMinWidth=21
+set! browser.tabs.tabMaxWidth=18
+set! browser.tabs.tabMinWidth=18
 " }}}
 
 " Keymap {{{
