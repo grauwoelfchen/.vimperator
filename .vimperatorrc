@@ -1,13 +1,46 @@
-" editor {{{
+" Editor {{{
 set editor="xterm -e vim"
+"set noinsertmode
 " }}}
 
-" gui {{{
+" JavaScript {{{
+set! javascript.options.jit.chrome=true
+" }}}
+
+" Search {{{
+set defsearch=duckduckgo
+set suggestengines=duckduckgo
+" }}}
+
+" Behavior {{{
+set focuscontent
+set followhints=1
+" }}}
+
+" GUI {{{
 set titlestring="vimrepator"
 set showstatuslinks=1
+
+map <silent> <F2> :js toggle_navbar()<CR>
+:js << EOF
+function toggle_navbar() {
+  var nbar = document.getElementById('nav-bar');
+  if (!nbar) {
+    return;
+  }
+  nbar.style.visibility = (nbar.style.visibility == '') ? 'collapse' : '';
+  nbar.style.overflow = (nbar.style.height == '') ? '' : 'hidden';
+}
+toggle_navbar();
+EOF
+
+"" tabs
+set! browser.tabs.closeButtons=2
+set! browser.tabs.tabMaxWidth=21
+set! browser.tabs.tabMinWidth=21
 " }}}
 
-" keymap {{{
+" Keymap {{{
 noremap j 10<C-e>
 noremap k 10<C-y>
 noremap h <A-Left>
@@ -17,11 +50,14 @@ map <S-L> :tabmove! +1<CR>
 map <S-H> :tabmove! -1<CR>
 " }}}
 
-" color {{{
+" Moving {{{
+set scroll=4
+" }}}
+
+" Color {{{
 colorscheme gr_black
 " }}}
 
-" other {{{
-"" showoff
-autocmd LocationChange localhost:9090 js modes.passAllKeys = true
+" Vimperator {{{
+noremap <Leader>.s :source ~/.vimperatorrc<CR>
 " }}}
