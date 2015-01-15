@@ -1,53 +1,52 @@
 " **********
 " gr_black
 "
-" This is simple gray-black base theme.
+" This is simple gray-black colored theme.
 " All colors are specified by name.
 "
-" See:    http://vimperator.org/help/vimperator/styling.xhtml
-" Note:   tested Firefox 9.0.1 on MacBookPro
+" See: http://vimperator.org/help/vimperator/styling.xhtml
+" Note: tested Firefox 24.8.0
 " Author: @grauwoelfchen
 " **********
 
 hi CmdOutput          font-size: 15px;
 hi CmdLine            color: darkgray; background-color: black; font-size: 15px;
 
-hi Title              color: white; font-weight: normal;
 hi Indicator          color: blue;
 hi String             color: khaki;
 hi Number             color: gray;
 hi Object             color: yellow;
 hi Function           color: skyblue;
 hi URL                color: skyblue;
+hi Title              color: white; font-weight: normal;
 hi TabNumber          color: white; font-size: 10px;
 
-hi Hint               color: gray;        background-color: khaki; font-size: 13px; font-weight: normal; border: 1px solid orange; padding: 0px 3px;
-hi HintElem           color: gray;        background-color: black;
-hi HintActive         color: pink;        background-color: gray;
+hi Hint               color: gray; background-color:khaki; font-size:13px; font-weight:normal; border:1px solid orange; padding: 0px 3px;
+hi HintElem           color: gray; background-color:black;
+hi HintActive         color: pink; background-color:gray;
 
-hi StatusLine         color: darkgray;    background-color: black; font-size: 15px;
-hi Normal             color: gray;        background-color: black; font-size: 15px;
+hi StatusLine         color: darkgray; background-color: black; font-size: 15px;
+hi Normal             color: gray; background-color: black; font-size: 15px;
 hi InfoMsg            color: lightyellow; background-color: black; font-size: 15px;
 hi ModeMsg            color: lightyellow; background-color: black; font-size: 15px;
-hi MoreMsg            color: limegreen;   background-color: black; font-size: 15px;
-hi LineNr             color: gray;        background-color: black; font-size: 15px;
-hi Question           color: yellow;      background-color: black; font-size: 15px;
-hi WarningMsg         color: red;         background-color: black; font-size: 15px;
+hi MoreMsg            color: limegreen; background-color: black; font-size: 15px;
+hi LineNr             color: gray; background-color: black; font-size: 15px;
+hi Question           color: yellow; background-color: black; font-size: 15px;
+hi WarningMsg         color: red; background-color: black; font-size: 15px;
 hi Null               color: white;
 hi Tag                color: white;
 hi NonText            background-color: black;
 
 hi CompGroup          padding: 1px 0;
-hi CompItem           color: gray:      background-color: black; font-weight: normal; padding: 2px 3px;
-hi CompItem[selected] color: pink;      background-color: gray;
+hi CompItem           color: gray: background-color: black; font-weight: normal; padding: 2px 3px;
+hi CompItem[selected] color: pink; background-color: gray;
 hi CompItem>*         padding: 0 3px;
 hi CompDesc           color: darkgreen;
-hi CompTitle          color: skyblue;   background-color: black; font-weight: normal; padding: 2px 3px;
+hi CompTitle          color: skyblue; background-color: black; font-weight: normal; padding: 2px 3px;
 hi CompTitle>*        border-bottom: 1px dotted skyblue; padding: 1px 5px; text-shadow: 0px; font-weight: normal;
-hi CompMsg            color: gray;      text-decoration: none;
+hi CompMsg            color: gray; text-decoration: none;
 hi CompResult         padding: 2px 3px;
 
 hi Indicator          color: gray;
-hi FrameIndicator     color: gray;      background-color: gray;  border: 1px solid khaki;
-hi Filter             color: gray;      background-color: khaki; border: 1px solid orange; padding: 1px 2px;
-
+hi FrameIndicator     color: gray; background-color: gray;  border: 1px solid khaki;
+hi Filter             color: gray; background-color: khaki; border: 1px solid orange; padding: 1px 2px;
