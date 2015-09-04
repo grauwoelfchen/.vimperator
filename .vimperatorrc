@@ -41,8 +41,8 @@ set! browser.tabs.tabMinWidth=18
 " }}}
 
 " Keymap {{{
-noremap j 10<C-e>
-noremap k 10<C-y>
+noremap j 13<C-e>
+noremap k 13<C-y>
 noremap h <A-Left>
 noremap l <A-Right>
 "" tabs
@@ -51,7 +51,7 @@ map <S-H> :tabmove! -1<CR>
 " }}}
 
 " Moving {{{
-set scroll=4
+set scroll=30
 " }}}
 
 " Color {{{
