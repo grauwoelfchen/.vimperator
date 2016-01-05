@@ -18,7 +18,7 @@ set followhints=1
 " }}}
 
 " GUI {{{
-set cpt=tb
+set cpt=tbh
 set titlestring="vimrepator"
 set showstatuslinks=1
 
