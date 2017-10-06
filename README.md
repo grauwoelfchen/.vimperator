@@ -5,8 +5,16 @@ The `.vimperatorrc` and My original color scheme `gr_black.vimp`.
 
 ## Repository
 
-https://gitlab.com/grauwoelfchen/dotvimperator
+https://gitlab.com/grauwoelfchen/DotVimperator
 
+
+## Setup
+
+```zsh
+% cd
+% git clone git@gitlab.com:grauwoelfchen/dotvimperator.git .vimperator
+% ln -s .vimperator/.vimperatorrc
+```
 
 ## License
 
