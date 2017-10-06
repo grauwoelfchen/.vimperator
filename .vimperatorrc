@@ -9,7 +9,7 @@ set! javascript.options.jit.chrome=true
 
 " Search {{{
 set defsearch=duckduckgo
-set suggestengines=duckduckgo
+set suggestengines=duckduckgo,ecosia
 " }}}
 
 " Behavior {{{
